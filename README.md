@@ -32,14 +32,14 @@ copying) the `orchestrate/` folder into your personal skills directory.
 **Symlink (recommended — you get updates with `git pull`):**
 
 ```bash
-git clone https://github.com/<your-username>/orchestrate-skill.git
+git clone https://github.com/rafacompu/orchestrate-skill.git
 ln -s "$(pwd)/orchestrate-skill/orchestrate" ~/.claude/skills/orchestrate
 ```
 
 **Or copy it (simple, but no auto-updates):**
 
 ```bash
-git clone https://github.com/<your-username>/orchestrate-skill.git
+git clone https://github.com/rafacompu/orchestrate-skill.git
 cp -r orchestrate-skill/orchestrate ~/.claude/skills/orchestrate
 ```
 
